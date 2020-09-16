@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def my_collect(collection)
   i = 0
@@ -16,5 +16,5 @@ collection = ['ruby', 'javascript', 'python', 'objective-c']
 my_collect(collection) do 
 |language|
   language.upcase
-  binding.pry
+ 
 end

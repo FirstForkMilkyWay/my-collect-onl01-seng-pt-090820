@@ -1,5 +1,5 @@
 
-
+collection = ['ruby', 'javascript', 'python', 'objective-c']
 def my_collect(collection)
   i = 0
   collection = []
@@ -10,6 +10,4 @@ def my_collect(collection)
   collection
 end
 
-
-collection = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(collection){
+my_collect(collection){ |name| "Hi, #{name}" }

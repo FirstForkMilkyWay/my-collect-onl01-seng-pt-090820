@@ -10,6 +10,7 @@ end
 
 my_collect(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
 
-my_collect(languages) do |language|
-         language.upcase
-       end
+my_collect(languages) do 
+|language|
+  language.upcase
+end

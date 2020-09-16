@@ -8,7 +8,4 @@ def my_collect(collection)
   collection
 end
 
-collection = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(collection) do |student|
-  student.split(" ").first
-end
+my_collect(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }

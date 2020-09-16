@@ -7,7 +7,7 @@ def my_collect(collection)
     collections << yield(collection[i])
     i += 1
   end
-  collection
+  collections
 end
 
 my_collect(collection) do |lang|

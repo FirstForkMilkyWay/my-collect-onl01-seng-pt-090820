@@ -11,7 +11,7 @@ end
 my_collect(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
 
 collection = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(languages) do 
+my_collect(collection) do 
 |language|
   language.upcase
 end
